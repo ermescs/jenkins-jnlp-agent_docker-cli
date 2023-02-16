@@ -2,7 +2,7 @@
 
 set -e
 
-docker_version="19.03.5"
+docker_version="23.0.1"
 
 if [ "a${1}" != "a" ]; then
     docker_version=${1}
